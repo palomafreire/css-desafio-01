@@ -115,24 +115,48 @@ section {
 }
 
 #transform-world {
-    height: 50vh;
-    border-width: 10px;
-    border-style: solid;
-    border-color: yellow;
+    height: 560px;
+    background-size: cover;
+    background-image: url("../images/woman-code.png");
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    padding: 50px;
 
 }
 
-#professional-challenges {
-    height: 90vh;
-    border-width: 10px;
-    border-style: solid;
-    border-color: pink;
+#transform-world p {
+    font-weight: 700;
+    font-size: 2.0rem;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #33A8DB;
+  }
 
+
+
+#professional-challenges {
+    text-align: center;
+    width: 800px;
+  }
+
+#professional-challenges img {
+    margin: 32px 0;
 }
 
 footer {
-    height: 20vh;
-    border-width: 10px;
-    border-style: solid;
-    border-color: grey;
-}
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33A8DB80;
+  }
+  
+  footer .dio-logo {
+    width: 300px;
+  }
+  
+  footer a {
+    color: #33A8DB;
+    font-weight: bold;
+    text-decoration: none;
+  }
